@@ -23,7 +23,7 @@
 
 <p><em><h3> 1. Create directories</h3></em></p>
 
-<p><code>mkdir Android (or whatever name you choose, which will be refered to as Android throughout)</code>
+<p><code>mkdir Android (or whatever name you choose, which will be refered to as Android throughout)</code></br>
 <code>cd Android</code></p>
 
 <p><em> <h3>2. Initialize CM12.1 source</h3></em></p>
@@ -32,7 +32,7 @@
 
 <p><em><h3> 3. Download local normandy manifest</h3></em></p>
 
-<p><code>mkdir .repo/local_manifests</code>
+<p><code>mkdir .repo/local_manifests</code></br>
 <code>curl -L -o .repo/local_manifests/normandylp.xml -O -L https://raw.github.com/NormandyLP/local_manifests/master/normandylp.xml</code></p>
 
 <p><em><h3> 4. Download source</h3></em></p>
@@ -46,8 +46,7 @@
 
 <p><em><h3> 6. Start building</h3></em></p>
 
-<p><code>. build/envsetup.sh && lunch cm_normandy-userdebug</code>
-<code>brunch normandy</code></br>
+<p><code>. build/envsetup.sh && lunch cm_normandy-userdebug && brunch normandy</code></br>
 
       <footer class="site-footer">
 
